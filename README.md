@@ -26,20 +26,6 @@
 | Dataset               | `chatbot_response_templates.csv`       |
 | Deployment (Optional) | [Streamlit Cloud](https://share.streamlit.io) |
 | Repo & Version Control | Git + GitHub                         |
-
----
-
-## 🧪 How to Run
-
-```bash
-git clone https://github.com/mumbua-mutinda/sautibot.git
-cd "sautibot AI project"
-pip install -r requirements.txt
-streamlit run sautibot_app.py
-
-
-
-
 ---
 
 📊 SDG Alignment
@@ -56,8 +42,7 @@ SDG 16	Supports peaceful and inclusive communities via safe reporting
 
 ✅ Works in low-resource settings (no cloud dependency)
 
-❤️ Built By
-Berlyn Mumbua – AI for Software Engineering Student
+ Built By Berlyn Mumbua – AI for Software Engineering Student
 
 “Your Safe Space. Your Voice. Your Power.”
 
@@ -67,3 +52,17 @@ Berlyn Mumbua – AI for Software Engineering Student
 📱 WhatsApp: Chat Usikimye
 
 🚨 Emergency (Kenya): Call 1199 or 911
+
+---
+
+## 🧪 How to Run
+
+```bash
+git clone https://github.com/mumbua-mutinda/sautibot.git
+cd "sautibot AI project"
+pip install -r requirements.txt
+streamlit run sautibot_app.py
+
+
+
+
