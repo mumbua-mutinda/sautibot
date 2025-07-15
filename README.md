@@ -36,6 +36,10 @@ git clone https://github.com/mumbua-mutinda/sautibot.git
 cd "sautibot AI project"
 pip install -r requirements.txt
 streamlit run sautibot_app.py
+
+
+
+
 ---
 
 📊 SDG Alignment
