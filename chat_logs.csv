@@ -1,0 +1,11 @@
+timestamp,session_id,role,message,emergency
+2025-07-16 00:22:40,anon_99b05463,user,hi,No
+2025-07-16 00:22:40,anon_99b05463,bot,"Hello, how may I help you today?",Yes
+2025-07-16 00:22:51,anon_99b05463,user,iwant to talk,No
+2025-07-16 00:22:51,anon_99b05463,bot,I'm here to talk. You can say as much or as little as you like—this is a safe space.,No
+2025-07-16 00:23:12,anon_99b05463,user,my cousin has been molesting me,Yes
+2025-07-16 00:23:12,anon_99b05463,bot,Family abuse can be very confusing and painful. I'm here to support you—would you like help contacting a professional or safe place?,Yes
+2025-07-16 00:23:51,anon_99b05463,user,yes,No
+2025-07-16 00:23:51,anon_99b05463,bot,I'm here for you. Could you share a little more so I can better support you?,No
+2025-07-16 00:24:17,anon_99b05463,user,call,No
+2025-07-16 00:24:17,anon_99b05463,bot,I'm here for you. Could you share a little more so I can better support you?,No
