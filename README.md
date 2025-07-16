@@ -7,6 +7,15 @@ A compassionate AI chatbot built with **Streamlit**, designed to support individ
 [![MIT License](https://img.shields.io/badge/license-MIT-lightgrey)](LICENSE)
 
 ---
+## 🎥 Demo Video
+
+Watch the full walkthrough of **SautiBot** on Loom:
+
+🔗 [Click here to view the demo](https://www.loom.com/share/5252fca2bab1467cb10bfa5a153ad715?sid=3de53c96-e818-42be-865b-6ea8defb8257)
+
+![SautiBot Demo](https://cdn.loom.com/sessions/thumbnails/5252fca2bab1467cb10bfa5a153ad715-with-play.gif)
+
+---
 
 ## 🌍 SDG Alignment
 
