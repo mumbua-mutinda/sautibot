@@ -69,42 +69,21 @@ Access the deployed app here:
 
 ## 📂 Project Structure
 
+```
 sautibot/
 ├── app/
-│ └── sautibot_app.py # Main Streamlit app
+│   └── sautibot_app.py              # Main Streamlit app
 ├── data/
-│ └── chatbot_response_templates.csv # Keyword-response pairs
+│   └── chatbot_response_templates.csv  # Keyword-response pairs
 ├── docs/
-│ ├── final_report.docx # Formal project report
-│ └── pitch_deck.pdf # Optional: slide presentation
+│   ├── final_report.docx           # Formal project report
+│   └── pitch_deck.pdf              # Optional: slide presentation
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
 ---
-
-## 📦 Setup Instructions
-
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/mumbua-mutinda/sautibot.git
-cd sautibot
-
-### 2. Create & activate virtual environment (optional but recommended)
-python3 -m venv .venv
-source .venv/bin/activate  # Mac/Linux
-# OR
-.venv\Scripts\activate  # Windows
-
-### 3. Install dependencies
-pip install -r requirements.txt
-
-### 4. Run the Streamlit app
-streamlit run app/sautibot_app.py
-
----
-
 📈 Example Keywords
 "rape", "molested", "beaten", "unsafe", "depressed"
 
@@ -139,6 +118,25 @@ Streamlit
 
 Kenya’s local mental health and GBV response initiatives
 
+---
+## 📦 Setup Instructions
 
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/mumbua-mutinda/sautibot.git
+cd sautibot
+
+### 2. Create & activate virtual environment (optional but recommended)
+python3 -m venv .venv
+source .venv/bin/activate  # Mac/Linux
+# OR
+.venv\Scripts\activate  # Windows
+
+### 3. Install dependencies
+pip install -r requirements.txt
+
+### 4. Run the Streamlit app
+streamlit run app/sautibot_app.py
 
 
