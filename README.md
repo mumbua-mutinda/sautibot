@@ -85,6 +85,7 @@ sautibot/
 
 ---
 📈 Example Keywords
+```
 "rape", "molested", "beaten", "unsafe", "depressed"
 
 "stubbed", "harassed", "anxious", "sad", "panic"
@@ -92,10 +93,11 @@ sautibot/
 "teacher", "uncle", "aunt", "partner", "husband"
 
 Also includes Swahili variations: "nateswa", "nanyanyaswa", "nisaidie", etc.
-
+```
 ---
 
 ☎️ Emergency Contacts
+```
 The bot offers:
 
 📞 Call Usikimye: +254 110 000 999
@@ -103,7 +105,7 @@ The bot offers:
 💬 WhatsApp Chat with Usikimye
 
 🚨 Emergency: Dial 911 or 1199 in Kenya
-
+```
 ---
 
 📜 License
@@ -112,12 +114,13 @@ MIT License — feel free to adapt this for good causes!
 ---
 
 🙌 Acknowledgments
+```
 Usikimye
 
 Streamlit
 
 Kenya’s local mental health and GBV response initiatives
-
+```
 ---
 ## 📦 Setup Instructions
 
