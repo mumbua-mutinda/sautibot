@@ -156,4 +156,4 @@ with st.sidebar:
     st.caption("📱 *Mobile tap-to-call works best on phones.*")
 
 # Footer
-st.markdown('<div class="footer">Made with ❤️ by Berlyn Mumbua</div>', unsafe_allow_html=True)
+st.markdown('<div class="footer">Where voices are freely heard❤️</div>', unsafe_allow_html=True)
