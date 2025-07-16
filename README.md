@@ -1,67 +1,143 @@
-# 🛡️ SautiBot – AI-Powered Support Chatbot for Survivors (SDG 3 & 16)
+# 🛡️ SautiBot – AI-Powered Support for Survivors of Abuse
 
-**SautiBot** is a mental health and safety support chatbot designed to provide confidential, empathetic responses to individuals experiencing abuse, violence, or emotional distress. Built with Streamlit, it combines natural language detection, ethical AI principles, and accessible design to support Sustainable Development Goals:
+A compassionate AI chatbot built with **Streamlit**, designed to support individuals facing **abuse, violence, or emotional distress**, by providing anonymous assistance and connecting users to local crisis support services.
 
-- 🎯 **SDG 3** – Good Health and Well-being  
-- 🎯 **SDG 16** – Peace, Justice, and Strong Institutions
-
----
-
-## 💡 Features
-
-- 🤖 Keyword-based support system (e.g., rape, violence, depression)
-- 🌐 Swahili + English response capability
-- 🕶️ Anonymous mode for safe disclosure
-- 📞 Emergency contact integration (e.g., Usikimye, 1199, 911)
-- 📁 CSV-driven responses for flexibility and localization
+[![Streamlit App](https://img.shields.io/badge/Streamlit-App-blue)](https://sautibotapppy-zx7cqciusxpnqbb5f5zsmw.streamlit.app/)
+[![UN SDGs](https://img.shields.io/badge/UN%20SDGs-3%20&%2016-green)](https://sdgs.un.org/goals)
+[![MIT License](https://img.shields.io/badge/license-MIT-lightgrey)](LICENSE)
 
 ---
 
-## 🧠 Tech Stack
+## 🌍 SDG Alignment
 
-| Category              | Tools Used                            |
-|----------------------|----------------------------------------|
-| Frontend              | [Streamlit](https://streamlit.io)      |
-| Language Detection    | Custom regex on keywords from CSV     |
-| Dataset               | `chatbot_response_templates.csv`       |
-| Deployment (Optional) | [Streamlit Cloud](https://share.streamlit.io) |
-| Repo & Version Control | Git + GitHub                         |
----
+**Primary Goals:**
 
-📊 SDG Alignment
-SDG	How It’s Addressed
-SDG 3	Promotes mental health & access to urgent support
-SDG 16	Supports peaceful and inclusive communities via safe reporting
+- **SDG 3 – Good Health and Well-being**  
+  *Ensure healthy lives and promote well-being for all at all ages.*
 
-✅ Ethical AI Practices
-✅ Inclusive, non-judgmental language
-
-✅ Gender-neutral & trauma-informed responses
-
-✅ Minimal data retention (no user logging in local version)
-
-✅ Works in low-resource settings (no cloud dependency)
-
- Built By Berlyn Mumbua – AI for Software Engineering Student
-
-“Your Safe Space. Your Voice. Your Power.”
-
-🔗 Contact & Help Resources
-📞 Usikimye Kenya: +254 110 000 999
-
-📱 WhatsApp: Chat Usikimye
-
-🚨 Emergency (Kenya): Call 1199 or 911
+- **SDG 16 – Peace, Justice and Strong Institutions**  
+  *Promote peaceful and inclusive societies, access to justice, and strong institutions.*
 
 ---
 
-## 🧪 How to Run
+## 💡 Problem Statement
+
+Many individuals face **domestic violence, abuse, and emotional trauma** but lack access to **confidential, safe, and immediate support channels**. Stigma, fear, and limited resources often prevent them from seeking help.
+
+---
+
+## 🤖 AI Solution
+
+SautiBot uses **keyword-matching NLP**, intelligent logic, and an empathetic design to:
+
+- Listen anonymously
+- Respond compassionately
+- Identify keywords related to abuse, mental health, or danger
+- Offer tailored, culturally-sensitive responses
+- Connect users to verified support like **Usikimye** or **emergency numbers**
+
+---
+
+## 🧪 Software Engineering Concepts Applied
+
+| Concept            | Application in Project                             |
+|--------------------|-----------------------------------------------------|
+| **Automation**     | Auto-matching user messages to categorized responses |
+| **Modular Code**   | Split into logic blocks: UI, keyword engine, memory |
+| **Version Control**| Managed on GitHub using Git                        |
+| **Ethical Design** | Anonymity toggle, sensitive language handling       |
+| **Testing**        | Manual testing for logic coverage and edge cases    |
+
+---
+
+## 🚀 Live App
+
+Access the deployed app here:  
+🔗 [https://sautibotapppy-zx7cqciusxpnqbb5f5zsmw.streamlit.app/](https://sautibotapppy-zx7cqciusxpnqbb5f5zsmw.streamlit.app/)
+
+---
+
+## ⚙️ How It Works
+
+1. User interacts through a simple chat interface.
+2. The chatbot parses input and scans for sensitive keywords.
+3. Based on the match, it replies with tailored support, empathy, and resources.
+4. It offers the option to connect to **emergency lines** or **organizations** like Usikimye.
+5. Anonymous mode available for safety.
+
+---
+
+## 📂 Project Structure
+
+sautibot/
+├── app/
+│ └── sautibot_app.py # Main Streamlit app
+├── data/
+│ └── chatbot_response_templates.csv # Keyword-response pairs
+├── docs/
+│ ├── final_report.docx # Formal project report
+│ └── pitch_deck.pdf # Optional: slide presentation
+├── requirements.txt
+├── README.md
+└── .gitignore
+
+---
+
+## 📦 Setup Instructions
+
+### 1. Clone the repo
 
 ```bash
 git clone https://github.com/mumbua-mutinda/sautibot.git
-cd "sautibot AI project"
+cd sautibot
+
+### 2. Create & activate virtual environment (optional but recommended)
+python3 -m venv .venv
+source .venv/bin/activate  # Mac/Linux
+# OR
+.venv\Scripts\activate  # Windows
+
+### 3. Install dependencies
 pip install -r requirements.txt
-streamlit run sautibot_app.py
+
+### 4. Run the Streamlit app
+streamlit run app/sautibot_app.py
+
+---
+
+📈 Example Keywords
+"rape", "molested", "beaten", "unsafe", "depressed"
+
+"stubbed", "harassed", "anxious", "sad", "panic"
+
+"teacher", "uncle", "aunt", "partner", "husband"
+
+Also includes Swahili variations: "nateswa", "nanyanyaswa", "nisaidie", etc.
+
+---
+
+☎️ Emergency Contacts
+The bot offers:
+
+📞 Call Usikimye: +254 110 000 999
+
+💬 WhatsApp Chat with Usikimye
+
+🚨 Emergency: Dial 911 or 1199 in Kenya
+
+---
+
+📜 License
+MIT License — feel free to adapt this for good causes!
+
+---
+
+🙌 Acknowledgments
+Usikimye
+
+Streamlit
+
+Kenya’s local mental health and GBV response initiatives
 
 
 
